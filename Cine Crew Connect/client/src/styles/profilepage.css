@@ -1,0 +1,132 @@
+/* 🌟 Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #2b2b45, #1e1e2f);
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* 🔥 Navbar Styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 15px 40px;
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .navbar h1 {
+    font-size: 22px;
+    color: #ffcc00;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar ul li {
+    display: inline;
+  }
+  
+  .navbar ul li a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar ul li a:hover {
+    color: #ff9933;
+  }
+  
+  /* 🏆 Profile Header */
+  .profile-header {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ffcc00;
+  }
+  
+  /* 📤 Upload Box */
+  .upload-box {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .upload-box h2 {
+    color: #ffcc00;
+  }
+  
+  .file-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+  }
+  
+  .upload-btn {
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #ff3366, #ff9933);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .upload-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #ff0033, #ff6600);
+  }
+  
+  /* 🎭 Posts Section */
+  .posts-section {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .post-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .post-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .post-card:hover {
+    transform: scale(1.05);
+  }
+  
